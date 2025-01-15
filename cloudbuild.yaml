@@ -20,7 +20,7 @@ steps:
   args: [
     'run',
     'deploy',
-    'simple_fastapi',
+    'simple-fastapi',
     '--image',
     'us-central1-docker.pkg.dev/mnist-cnn-447812/repository/gcp_test_app:latest',
     '--region',
